@@ -1,16 +1,7 @@
-# Core capture & image processing (same as VLA pipeline)
-opencv-python-headless
-numpy
-Pillow
-
-# Qwen3-VL
-transformers>=4.51.0        # Qwen2_5_VLForConditionalGeneration added in 4.49
-torch>=2.3.0
-accelerate>=0.30.0
-qwen-vl-utils>=0.0.8        # process_vision_info helper
-
-# Optional: flash-attention-2 for faster prefill (requires CUDA 11.8+)
-# flash-attn>=2.5.8         # uncomment if available on your GPU node
-
-# SSH / remote deploy (same as VLA pipeline)
-paramiko
+ streamlit
+ transformers
+ torch
+ sentencepiece
+ pymupdf
+ reportlab
+accelerate
